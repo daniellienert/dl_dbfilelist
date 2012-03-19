@@ -1,0 +1,21 @@
+config.tx_extbase{
+    persistence{
+        classes{
+
+            Tx_DlDropboxsync_Domain_Model_FileMeta {
+                subclasses {
+                    Tx_DlDbfilelist_Files = Tx_DlDbfilelist_Domain_Model_Files
+					
+          		}
+            }
+
+            Tx_DlDbfilelist_Domain_Model_Files {
+                mapping {
+                    tableName = tx_dldropboxsync_domain_model_filemeta
+                    recordType = Tx_DlDbfilelist_Files
+                }
+            }
+            
+    	}
+    }
+}

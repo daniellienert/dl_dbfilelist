@@ -1,0 +1,30 @@
+plugin.tx_dldbfilelist {
+	view {
+		templateRootPath = {$plugin.tx_dldbfilelist.view.templateRootPath}
+		partialRootPath = {$plugin.tx_dldbfilelist.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_dldbfilelist.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_dldbfilelist.persistence.storagePid}
+	}
+}
+
+plugin.tx_dldbfilelist._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-dl-dbfilelist table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-dl-dbfilelist table th {
+		font-weight:bold;
+	}
+
+	.tx-dl-dbfilelist table td {
+		vertical-align:top;
+	}
+)

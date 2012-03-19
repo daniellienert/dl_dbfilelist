@@ -1,0 +1,14 @@
+plugin.tx_dldbfilelist {
+	view {
+		# cat=plugin.tx_dldbfilelist/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:dl_dbfilelist/Resources/Private/Templates/
+		# cat=plugin.tx_dldbfilelist/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:dl_dbfilelist/Resources/Private/Partials/
+		# cat=plugin.tx_dldbfilelist/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:dl_dbfilelist/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_dldbfilelist//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}
