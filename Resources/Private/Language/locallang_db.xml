@@ -7,6 +7,8 @@
 	<data type="array">
 		<languageKey index="default" type="array">
 			<label index="tx_dldbfilelist_domain_model_files">Files</label>
+			<label index="tx_dldbfilelist_domain_model_files.title">Title</label>
+			<label index="tx_dldbfilelist_domain_model_files.description">Description</label>
 			<label index="tx_dldbfilelist_domain_model_files.downloads">Downloads</label>
 			<label index="tx_dldropboxsync_domain_model_filemeta.tx_extbase_type.Tx_DlDbfilelist_Files">Dropbox File List Files</label>
 			

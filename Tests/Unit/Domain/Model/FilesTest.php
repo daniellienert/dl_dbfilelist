@@ -53,6 +53,40 @@ class Tx_DlDbfilelist_Domain_Model_FilesTest extends Tx_Extbase_Tests_Unit_BaseT
 	/**
 	 * @test
 	 */
+	public function getTitleReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setTitleForStringSetsTitle() { 
+		$this->fixture->setTitle('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getTitle()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getDescriptionReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setDescriptionForStringSetsDescription() { 
+		$this->fixture->setDescription('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getDescription()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
 	public function getDownloadsReturnsInitialValueForString() { }
 
 	/**

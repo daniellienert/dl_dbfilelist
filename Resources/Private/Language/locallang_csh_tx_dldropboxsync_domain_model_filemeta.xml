@@ -7,7 +7,9 @@
 	</meta>
 	<data type="array">
 	<languageKey index="default" type="array">
-			<label index="downloads.description">downloads</label>
+			<label index="title.description">Title</label>
+			<label index="description.description">Description</label>
+			<label index="downloads.description">Downloads</label>
 		</languageKey>
 	</data>
 </T3locallang>
